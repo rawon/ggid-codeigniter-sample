@@ -7,7 +7,7 @@ class Login extends CI_Controller {
     $this->load->library('ggidprovider', [
         'clientId'      => 'your application client id', //change this accordingly
         'clientSecret'  => 'your application client secret', //change this accordingly
-        'redirectUri'   => 'your application redirect uri', //change this accordingly
+        'redirectUri'   => 'http://localhost/index.php/login', //your app must set redirect URI to this
         'scopes'        => ['all'],
     ]);
 
