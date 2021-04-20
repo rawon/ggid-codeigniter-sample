@@ -8,8 +8,8 @@ class Ggidprovider extends AbstractProvider
 {
     public $responseType = 'json';
     public $authorizationHeader = 'Bearer';
-    public $domain = 'https://gg-id.net';
-    public $apiDomain = 'https://gg-id.net/api';
+    public $domain = 'https://gate.co.id';
+    public $apiDomain = 'https://gate.co.id/api';
     
     public function urlAuthorize()
     {
